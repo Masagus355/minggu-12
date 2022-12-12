@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: seagreen;
+  padding: 10px;
+  gap: 10px;
+  border:5px solid rgb(249, 200, 6);
+}
+.grid-item {
+  background-color: rgba(24, 207, 137, 0.8);
+  border: 5px solid rgba(253, 202, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-form {
+  background-color: rgba(24, 207, 137, 0.8);
+  border: 5px solid rgba(254, 151, 6, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align:center;
+}
+
+.grid-nav {
+  background-color: rgba(24, 207, 137, 0.8);
+  border: 5px solid rgba(254, 151, 6, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align:center;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
+<meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="shellwork.css">
+ <meta name="viewport"	content="width=device-width,initial-scale+1.0">
+ 
+	</head>
+		<body class="grid-item">
+		<header>
+		<h1 class="grid-item"><i>Menu</i></h1>
+		</header>
+		<nav class="grid-item">
+			<a href="index.html">Main</a>
+			<a href="profile.html">Profile</a>
+			<a href="article.html">Article</a>
+			<a href="buku_tamu.html">List</a>
+			</nav>
+
+      <div class="gallery">
+        <a target="_blank" href="Jellyfish.jpg">
+          <img src="Jellyfish.jpg" alt="Jelly" width="600" height="400">
+        </a>
+        <div class="desc">Jelly</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="Koala.jpg">
+          <img src="Koala.jpg" alt="Koala" width="600" height="400">
+        </a>
+        <div class="desc">Koala</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="Penguins.jpg">
+          <img src="Penguins.jpg" alt="Penguins" width="600" height="400">
+        </a>
+        <div class="desc">Pengwins</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="Tulips.jpg">
+          <img src="Tulips.jpg" alt="Tulips" width="600" height="400">
+        </a>
+        <div class="desc">Tulip</div>
+      </div><br><br><br><br><br><br><br>
+      
+      
+
+			<br><br><br><br><br><br><article>
+			<p class="grid-item"><span style="font-size:50px;">D</span>ante’s masterwork is a 3 volume work written in Italian rather than Latin.
+			It embraces human individuality and happiness in a way which suggests the beginning of the Renaissance.
+			This edition contains the English translation only.
+			Vol. 1 (Inferno (Hell) describes what happens to the souls of the wicked who are condemned to suffer the torments of Hell.</p>
+
+      
+ <button type="button" onclick="myFunction()">Please Click Me :(</button>
+
+<p id="demo">This is a demonstration.</p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "Thanks! :))";
+}
+</script>
+
+
+ <p style="text-align: center;" >
+ <img src="Dante Alighieri.jpg" width="250" height="270"><br>
+ <i>Dante Alighieri</i>
+ </p>
+			</article>
+			<div class="grid-container">
+  <div class="grid-item"><footer class="col-2" style="background-color:rgb(17, 236, 134);">Copyright <i>&copy</i>;Masagus355</footer></div>
+	</body>
+</html>

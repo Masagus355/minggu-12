@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+
+header{
+    padding: 30px;
+    background-color: seagreen;
+    border: 5px solid rgb(247, 147, 8);
+    text-align:center;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color:rgb(245, 129, 4);
+    border: 2px solid rgb(255, 158, 1);
+}
+
+nav ul{
+    list-style:lower-latin;
+    text-align: center;
+    background-color: rgb(205, 214, 209);
+    border:1px rgb(255, 154, 1);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    color:rgb(25, 26, 25)
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+form{
+    list-style: none;
+    text-align: left;
+    background-color: seagreen;
+    border: 3px solid rgb(240, 213, 9);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/*Change color the link color on hover*/
+nav ul li a:hover {
+    background-color: springgreen;
+color: teal;
+}

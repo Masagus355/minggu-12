@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: seagreen;
+  padding: 10px;
+  gap: 10px;
+  border:5px solid rgb(254, 147, 6);
+}
+.grid-item {
+  background-color: rgba(24, 207, 137, 0.8);
+  border: 5px solid rgba(254, 151, 6, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+ .grid-form {
+  background-color: rgba(24, 207, 137, 0.8);
+  border: 5px solid rgba(254, 151, 6, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align:center;
+}
+
+.grid-nav {
+  background-color: rgba(24, 207, 137, 0.8);
+  border: 5px solid rgba(254, 151, 6, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align:center;
+}
+</style>
+<meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="shellwork.css">
+ <meta name="viewport"	content="width=device-width,initial-scale+1.0">
+ 
+	</head>
+		<body>
+		<header>
+		<h1 class="grid-item"><i>List</i></h1>
+		</header>
+		<nav class="grid-nav" text-align="center">
+			<a href="index.html">Main</a>
+			<a href="profile.html">Profile</a>
+			<a href="article.html">Article</a>
+			<a href="buku_tamu.html">List</a>
+			</nav>
+			
+			<form class="grid-form">
+				<br><br><br><label for="fname">Nama Lengkap:</label><br>
+				<input type="text" id="fname" name="fname"><br>
+				<p>Jenis Kelamin:</p>
+				<input type="radio" id="Laki-laki" name="pilih-gender" value="Laki-laki">
+				<label for="Laki-laki">Laki-laki</label><br>
+				<input type="radio" id="Perempuan" name="pilih-gender" value="Perempuan">
+				<label for="Perempuan">Perempuan</label><br>
+				<br><label for="fadress">Alamat:</label><br>
+				<input type="text" type="number" id="fadress" name="fadress"><br>
+				<label for="femail">Email:</label><br>
+				<input type="text" type="number" id="femail" name="femail"><br>
+				<p>Aktif pada:</p>
+				<input type="checkbox" id="Twitter" name="Sosmed-aktif" value="Twitter">
+				<label for="Twitter">Twitter</label>
+				<input type="checkbox" id="Facebook" name="Sosmed-aktif" value="Facebook">
+				<label for="Facebookr">Facebook</label>
+				<input type="checkbox" id="Instagram" name="Sosmed-aktif" value="Instagram">
+				<label for="Instagram">Instagram</label><br><br>
+				<br><select name="info">
+					<br><option selected="select">-= Pilih =-</option>		
+						<option value="web udinus">Web Udinus</option>
+						<option value="surat kabar">Surat Kabar</option>		
+						<option value="teman kerabat">Teman/Kerabat</option>
+						<option value="browsing internet">Browsing Internet</option>
+					</select><br><br>
+				<br>
+				<p>Pesan</p>
+				<textarea name="pesan" cols="40" rows="3"></textarea><br><br>
+				<br><br>
+				<input type="submit" value="Submit">
+				<br><br>
+				<input type="reset" value="Batal">
+				<br><br>
+				<input type="password" value=“kata-sandi>
+				<br><br>	
+				<input type="file">
+			</form>
+
+
+ 
+			
+			<div class="grid-container">
+  <div class="grid-item"><footer class="col-2" style="background-color:rgb(17, 236, 134);">Copyright <i>&copy</i>;Masagus355</footer></div>
+	</body>
+</html>
